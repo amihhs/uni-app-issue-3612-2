@@ -1,0 +1,14 @@
+.reset {
+  color: red;
+
+  /* #ifndef MP */
+  .AAA+* {
+    color: red;
+  }
+  /* #endif */
+  /* #ifndef H5 */
+  .AAA+* {
+    color: black;
+  }
+  /* #endif */
+}
